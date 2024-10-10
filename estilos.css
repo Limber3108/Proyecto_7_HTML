@@ -1,0 +1,58 @@
+* {
+    padding:0;
+    margin:0;
+}
+img {
+    width:20%;
+}
+#cartel {
+    margin-bottom:15px;
+}
+#zona1 {
+    height:300px;
+    font-size:45px;
+    color:rgb(97, 32, 32);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*Background-color blue;*/
+    background-color: purple;
+    line-height:300px;
+    background-image: url("Bandera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+div {
+    text-align:center;
+}
+#zona2 {
+    background-color: aqua;
+    height:300px;
+    font-size:40px;
+    line-height:300px;
+}
+#zona3 {
+    background-color: black;
+    height:200px;
+    font-size:40px;
+    line-height:200px;
+}
+#zona4 {
+    background-color: pink;
+    height:200px;
+    font-size:40px;
+    line-height:200px;
+}
+button {
+    background-color: orange;
+    padding:15px;
+    font-size:20px;
+    border-radius:10px;
+    color: blueviolet;
+}
+button:hover {
+    cursor:pointer;
+    color:black;
+}
+button:active {
+    transform:scale(0.9x);
+}
